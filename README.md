@@ -9,7 +9,7 @@ Verbosely!
 [![Clojars Project](https://img.shields.io/clojars/v/mvc-works/verbosely.svg)](https://clojars.org/mvc-works/verbosely)
 
 ```clojure
-[mvc-works/verbosely "0.1.0-rc2"]
+[mvc-works/verbosely "0.1.1"]
 ```
 
 To require the macro(in ClojureScript):
