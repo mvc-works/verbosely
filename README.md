@@ -9,14 +9,16 @@ Verbosely!
 [![Clojars Project](https://img.shields.io/clojars/v/mvc-works/verbosely.svg)](https://clojars.org/mvc-works/verbosely)
 
 ```clojure
-[mvc-works/verbosely "0.1.1"]
+[mvc-works/verbosely "0.1.2"]
 ```
 
 To require the macro(in ClojureScript):
 
 ```clojure
-(:require-macros [verbosely.core :refer [verbosely!]])
+(:require-macros [verbosely.core :refer [verbosely! log!]])
 ```
+
+###### `verbosely!`
 
 For example you have a function called `f`:
 
@@ -41,6 +43,16 @@ Returns: 209
 ```
 
 Now `f` runs verbosely!
+
+###### `log!`
+
+```clojure
+=> (log! a (+ 1 2))
+(log! a (+ 1 2))
+a: 1
+(+ 1 2): 3
+nil
+```
 
 ### License
 
